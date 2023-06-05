@@ -17,7 +17,6 @@ header{
     display: flex;
     justify-content: space-between;
     padding: 25px;
-
 }
 
 header .logo,
@@ -42,6 +41,7 @@ main{
     padding: 25px;
 }
 
+/*Listagem Dos Pokémons*/
 main .listagem-pokemon{
     display: flex;
     flex-wrap: wrap;
@@ -62,6 +62,7 @@ main .cartao-pokemon{
     cursor: pointer;
 }
 
+/*Cartão dos Pokémons*/
 main .cartao-pokemon:hover{
     background-color: #96d9d6;
     transform: scale(1.05);
